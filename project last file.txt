@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelGo | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="light bg-blue-600 background-color:blue ">
+
+<!-- Navbar -->
+<div class="bg-blue-600 text-white flex justify-between items-center p-4">
+  <h1 class="text-2xl font-bold">TravelGo</h1>
+  <div class="space-x-4 hidden md:flex">
+    <a href="index.html" class="hover:underline"><b>Home,</b></a>
+    <a href="about.html" class="hover:underline"><b>About,</b></a>
+    <a href="destinations.html" class="hover:underline"><b>Destinations,</b></a>
+    <a href="tours.html" class="hover:underline"><b>Tours,</b></a>
+    <a href="login.html" class="hover:underline"><b>Login,</b></a>
+    <a href="signup.html" class="hover:underline"><b>Sign Up,</b></a>
+  </div>
+</div>
+
+<!-- Hero Section -->
+<section class="text-center py-16 bg-cover bg-center" style="background-image: url('travel-hero.jpg');">
+  <h2 class="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">Explore The World</h2>
+  <p class="text-xl text-white mt-4">Find the best travel destinations and experiences</p>
+</section>
+
+<!-- Featured Section -->
+<section class="pink">
+  
+  <h2 class="text-3xl font-semibold text-center mb-6">Top Destinations</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://media.istockphoto.com/id/635758088/photo/sunrise-at-the-eiffel-tower-in-paris-along-the-seine.jpg?s=612x612&w=0&k=20&c=rdy3aU1CDyh66mPyR5AAc1yJ0yEameR_v2vOXp2uuMM=" class="left" alt="Paris">
+      <div class="p-4">
+
+        <h3 class="text-xl font-bold">Paris</h3>
+        <p class="mt-2 text-gray-600">Experience the city of love and lights with amazing packages. Paris, often called the "City of Lights" and the "City of Love," is the capital and largest city of France. Situated on the Seine River, it's world-renowned for its stunning architecture, romantic ambiance, and rich culture. Paris is home to iconic landmarks such as the Eiffel Tower, Notre Dame Cathedral, the Louvre Museum, and the Arc de Triomphe. The city is also 1  a major center for fashion, food, art, and literature. Paris's charming streets, delightful cafes, and magnificent gardens make it an unforgettable tourist destination.   
+        </p>
+      </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSskFiayc9yveHlGsY147cmmyyY-cEIqvIpQWttfHefvSh2BOA4-QHTenm91oTIVXzeUEE&usqp=CAU" class="w-left h-48 object-cover" alt="Bali">
+      <div class="p-4">
+        <h3 class="text-xl font-bold">Bali</h3>
+        <p class="mt-2 text-gray-600">Relax on beautiful beaches and explore rich culture.Bali is a captivating Indonesian island renowned for its natural beauty, spiritual atmosphere, and vibrant culture. Often called the "Island of the Gods," Bali boasts stunning beaches, lush rice paddies, dramatic volcanoes, and coral reefs teeming with marine life. The island's Hindu traditions are deeply ingrained in daily life, evident in its numerous temples, intricate ceremonies, and graceful dances.
+
+          Beyond its picturesque landscapes, Bali offers a diverse range of experiences. Visitors can explore ancient temples like Tanah Lot and Uluwatu, practice yoga and meditation in serene settings, learn traditional crafts such as wood carving and batik, or simply relax on the beautiful beaches of Seminyak and Nusa Dua. The warm hospitality of the Balinese people and the island's enchanting energy make it a truly special and unforgettable destination.</p>
+      </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://media.istockphoto.com/id/1454217037/photo/statue-of-liberty-and-new-york-city-skyline-with-manhattan-financial-district-world-trade.jpg?s=612x612&w=0&k=20&c=6V54_qVlDfo59GLEdY2W8DOjLbbHTJ9y4AnJ58a3cis=" class="left" alt="New York">
+      <div class="p-4">
+        <h3 class="text-xl font-bold">New York</h3>
+        <p class="mt-2 text-gray-600">Visit iconic landmarks in the city that never sleeps.New York City, often called NYC or the "Big Apple," is the most populous city in the United States, situated at the southern tip of New York State. It's a global hub for finance, culture, fashion, and entertainment, comprising five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Each borough possesses a distinct character and contributes to the city's overall vibrant and diverse atmosphere.
+
+          The city is famous for its iconic landmarks such as the Statue of Liberty, the Empire State Building, Central Park, and Times Square. Its fast-paced lifestyle, diverse neighborhoods, and extensive public transportation system make it a unique and dynamic place to live and visit. New York City is a melting pot of cultures, with residents hailing from all corners of the world, contributing to its rich culinary scene, artistic expressions, and multilingual environment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" c
+ontent="width=device-width, initial-scale=1.0"/>
+  <title>TravelGo | About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- Navbar -->
+<div class="bg-blue-600 text-white flex justify-between items-center p-4">
+  <h1 class="text-2xl font-bold">TravelGo</h1>
+  <div class="space-x-4 hidden md:flex">
+    <a href="index.html" class="hover:underline"><b>Home,</b></a>
+    <a href="about.html" class="hover:underline"><b>About</b></a>
+    <a href="destinations.html" class="hover:underline"><b>Destinations,</b></a>
+    <a href="tours.html" class="hover:underline"><b>Tours,</b></a>
+    <a href="login.html" class="hover:underline"><b>login</b></a>
+  </div>
+</div>
+
+<!-- About Section -->
+<section class="p-8">
+  <h2 class="text-4xl font-bold text-center mb-6">About Us</h2>
+  <div class="max-w-3xl mx-auto text-center text-lg">
+    <p>Travel is far more than just visiting new places; it's a profound journey of self-discovery and growth that enriches our lives in countless ways. By stepping outside our familiar routines and venturing into the unknown, we open ourselves up to a world of new experiences, cultures, and perspectives. Each trip has the potential to challenge our preconceived notions, broaden our understanding of the world, and foster a deeper appreciation for the diversity of human experience. Whether it's navigating a bustling foreign city, savoring exotic flavors, or simply witnessing breathtaking landscapes, travel creates lasting memories and shapes us in ways we may not even realize. It allows us to break free from our comfort zones, adapt to new situations, and develop a resilience that extends far beyond our travels.
+
+      The benefits of travel ripple through various aspects of our lives. It has been shown to reduce stress, enhance creativity, and even improve our physical health. Interacting with different cultures can teach us invaluable lessons in empathy, tolerance, and communication. We learn to appreciate different ways of life and recognize the common threads that connect us all. Moreover, travel provides an unparalleled form of education, offering firsthand encounters with history, geography, and the arts. These experiences create a deeper and more meaningful understanding than any textbook can provide. Ultimately, travel is an investment in ourselves, fostering personal growth, expanding our horizons, and leaving us with a wealth of memories and a more nuanced perspective on the world we inhabit.</p>
+    <p class="mt-4">Founded in 2020, we’ve grown to serve thousands of customers who trust us to plan their journeys. Let us take care of the planning so you can enjoy your adventure stress-free.</p>
+  </div>
+</section>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelGo | Destinations</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- Navbar -->
+<div class="bg-blue-600 text-white flex justify-between items-center p-4">
+  <h1 class="text-2xl font-bold">TravelGo</h1>
+  <div class="space-x-4 hidden md:flex">
+    <a href="index.html" class="hover:underline">Home</a>
+    <a href="about.html" class="hover:underline">About</a>
+    <a href="destinations.html" class="hover:underline">Destinations</a>
+    <a href="tours.html" class="hover:underline">Tours</a>
+    <a href="contact.html" class="hover:underline">Contact</a>
+  </div>
+</div>
+
+<!-- Destinations Section -->
+<section class="p-8">
+  
+    
+  <h2 class="text-4xl font-bold text-center mb-6">Popular Destinations</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://thumbs.dreamstime.com/b/tokyo-tower-29468776.jpg" alt="Tokyo" class="">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Tokyo, Japan</h3>
+        <p class="text-gray-600">A perfect mix of tradition and technology.Tokyo, officially the Tokyo Metropolis, is the bustling capital and most populous city of Japan. Situated on the eastern coast of Honshu, Japan's largest island, it lies at the head of Tokyo Bay and is part of the Kanto region. What was once a small fishing village called Edo has transformed into a global hub of culture, finance, and fashion. The city's landscape is a fascinating blend of ultramodern skyscrapers illuminated by neon lights and historic temples and serene gardens that whisper tales of old Japan.</p>
+      </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://img.freepik.com/free-photo/beautiful-shot-famous-roman-colosseum-amphitheater-breathtaking-sky-sunrise_181624-6998.jpg?semt=ais_hybrid&w=740" alt="Rome" class="w-right">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Rome, Italy</h3>
+        <p class="text-gray-600">Dive into rich history and Roman architecture.Rome, the "Eternal City," is the capital of Italy and a city steeped in millennia of history, art, and culture. Located in the Lazio region of central Italy, along the Tiber River, Rome was the heart of the mighty Roman Empire, and its ancient ruins stand as powerful reminders of its glorious past. From the iconic Colosseum and the Roman Forum to the majestic Pantheon and the intricate catacombs, the city is an open-air museum, offering a tangible connection to one of history's most influential civilizations.</p>
+      </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://t4.ftcdn.net/jpg/04/12/81/69/360_F_412816969_cpRI2c2aSHobr77aOOzgO3kcW7FWCn9e.jpg" alt="Sydney">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Sydney, Australia</h3>
+        <p class="text-gray-600">Beaches, opera, and unforgettable nightlife.Rome, the "Eternal City," is the capital of Italy and a city steeped in millennia of history, art, and culture. Located in the Lazio region of central Italy, along the Tiber River, Rome was the heart of the mighty Roman Empire, and its ancient ruins stand as powerful reminders of its glorious past. From the iconic Colosseum and the Roman Forum to the majestic Pantheon and the intricate catacombs, the city is an open-air museum, offering a tangible connection to one of history's most influential civilizations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelGo | Destinations</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- Navbar -->
+<div class="bg-blue-600 text-white flex justify-between items-center p-4">
+  <h1 class="text-2xl font-bold">TravelGo</h1>
+  <div class="space-x-4 hidden md:flex">
+    <a href="index.html" class="hover:underline">Home</a>
+    <a href="about.html" class="hover:underline">About</a>
+    <a href="destinations.html" class="hover:underline">Destinations</a>
+    <a href="tours.html" class="hover:underline">Tours</a>
+    <a href="contact.html" class="hover:underline">Contact</a>
+  </div>
+</div>
+
+<!-- Destinations Section -->
+<section class="p-8">
+  
+    
+  <h2 class="text-4xl font-bold text-center mb-6">Popular Destinations</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://thumbs.dreamstime.com/b/tokyo-tower-29468776.jpg" alt="Tokyo" class="">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Tokyo, Japan</h3>
+        <p class="text-gray-600">A perfect mix of tradition and technology.Tokyo, officially the Tokyo Metropolis, is the bustling capital and most populous city of Japan. Situated on the eastern coast of Honshu, Japan's largest island, it lies at the head of Tokyo Bay and is part of the Kanto region. What was once a small fishing village called Edo has transformed into a global hub of culture, finance, and fashion. The city's landscape is a fascinating blend of ultramodern skyscrapers illuminated by neon lights and historic temples and serene gardens that whisper tales of old Japan.</p>
+      </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://img.freepik.com/free-photo/beautiful-shot-famous-roman-colosseum-amphitheater-breathtaking-sky-sunrise_181624-6998.jpg?semt=ais_hybrid&w=740" alt="Rome" class="w-right">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Rome, Italy</h3>
+        <p class="text-gray-600">Dive into rich history and Roman architecture.Rome, the "Eternal City," is the capital of Italy and a city steeped in millennia of history, art, and culture. Located in the Lazio region of central Italy, along the Tiber River, Rome was the heart of the mighty Roman Empire, and its ancient ruins stand as powerful reminders of its glorious past. From the iconic Colosseum and the Roman Forum to the majestic Pantheon and the intricate catacombs, the city is an open-air museum, offering a tangible connection to one of history's most influential civilizations.</p>
+      </div>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://t4.ftcdn.net/jpg/04/12/81/69/360_F_412816969_cpRI2c2aSHobr77aOOzgO3kcW7FWCn9e.jpg" alt="Sydney">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold">Sydney, Australia</h3>
+        <p class="text-gray-600">Beaches, opera, and unforgettable nightlife.Rome, the "Eternal City," is the capital of Italy and a city steeped in millennia of history, art, and culture. Located in the Lazio region of central Italy, along the Tiber River, Rome was the heart of the mighty Roman Empire, and its ancient ruins stand as powerful reminders of its glorious past. From the iconic Colosseum and the Roman Forum to the majestic Pantheon and the intricate catacombs, the city is an open-air museum, offering a tangible connection to one of history's most influential civilizations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelGo | Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+<div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+  <h2 class="text-3xl font-bold mb-6 text-center text-blue-600">Login to TravelGo</h2>
+  <form class="space-y-4">
+    <div>
+      <label class="block font-semibold mb-1">Email</label>
+      <input type="email" placeholder="example@email.com" class="w-full p-2 border border-gray-300 rounded">
+    </div>
+    <div>
+      <label class="block font-semibold mb-1">Password</label>
+      <input type="password" placeholder="Enter your password" class="w-full p-2 border border-gray-300 rounded">
+    </div>
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"> <a href="index.html">Login</a></button>
+    <p class="text-center text-sm mt-4">Don't have an account? <a href="signup.html" class="text-blue-600 hover:underline">Sign up</a></p>
+  </form>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TravelGo | Sign Up</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+<div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+  <h2 class="text-3xl font-bold mb-6 text-center text-blue-600">Create an Account</h2>
+  <form class="space-y-4">
+    <div>
+      <label class="block font-semibold mb-1">Name</label>
+      <input type="text" placeholder="Your full name" class="w-full p-2 border border-gray-300 rounded">
+    </div>
+    <div>
+      <label class="block font-semibold mb-1">Email</label>
+      <input type="email" placeholder="example@email.com" class="w-full p-2 border border-gray-300 rounded">
+    </div>
+    <div>
+      <label class="block font-semibold mb-1">Password</label>
+      <input type="password" placeholder="Create a password" class="w-full p-2 border border-gray-300 rounded">
+    </div>
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700"> <a href="index.html">Sign up</a></button>
+    <p class="text-center text-sm mt-4">Already have an account? <a href="login.html" class="text-blue-600 hover:underline">Login</a></p>
+  </form>
+</div>
+
+</body>
+</html>
+
+// 1. Toggle Sidebar for Mobile View
+function toggleMenu() {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.toggle("hidden");
+}
+
+// 2. Close Sidebar Button
+function closeMenu() {
+    document.getElementById("sidebar").classList.add("hidden");
+}
+
+// 3. Highlight Current Section in Navbar
+function highlightCurrentSection() {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a");
+
+    window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach(section => {
+            const top = window.scrollY;
+            const offset = section.offsetTop - 100;
+            const height = section.offsetHeight;
+            if (top >= offset && top < offset + height) {
+                current = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove("text-blue-500", "font-bold");
+            if (link.getAttribute("href").includes(current)) {
+                link.classList.add("text-blue-500", "font-bold");
+            }
+        });
+    });
+}
+
+// 4. Search Box Functionality (Dummy search)
+function enableSearch() {
+    const searchInput = document.querySelector(".search-box");
+    const searchButton = document.querySelector(".search-btn");
+
+    searchButton.addEventListener("click", () => {
+        alert("You searched for: " + searchInput.value);
+    });
+}
+
+// 5. Scroll to Top Button
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// 6. Show/Hide password (For future login page)
+function togglePasswordVisibility(id) {
+    const input = document.getElementById(id);
+    input.type = input.type === "password" ? "text" : "password";
+}
+
+// 7. Validate Contact Form (Basic)
+function validateContactForm() {
+    const form = document.querySelector(".contact-form form");
+    form.addEventListener("submit", function (e) {
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const phone = form.phone.value.trim();
+
+        if (!name || !email || !phone) {
+            e.preventDefault();
+            alert("Please fill out all contact fields.");
+        }
+    });
+}
+
+// 8. Load Page Animation (optional effect)
+function fadeInOnLoad() {
+    window.addEventListener("load", () => {
+        document.body.classList.add("transition-opacity", "duration-700", "opacity-100");
+    });
+}
+
+// 9. Smooth Scroll for Nav Links
+function smoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute("href"));
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+            }
+        });
+    });
+}
+
+// 10. Dark Mode Toggle (if you want to add dark mode later)
+function toggleDarkMode() {
+    document.body.classList.toggle("bg-gray-900");
+    document.body.classList.toggle("text-white");
+}
+
+// ======= INITIALIZE FUNCTIONS ON LOAD ======= //
+document.addEventListener("DOMContentLoaded", function () {
+    highlightCurrentSection();
+    enableSearch();
+    validateContactForm();
+    fadeInOnLoad();
+    smoothScroll();
+});
+
